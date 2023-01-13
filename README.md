@@ -1,4 +1,4 @@
-My portfolio site! https://declangessel.com
+My portfolio site: https://declangessel.com
 
 ## Credits
 * [React](https://github.com/facebook/react)
