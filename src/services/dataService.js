@@ -89,7 +89,7 @@ export default class DataService {
               title: 'Handstitched Leather Soccer Ball',
               description:
                 'I loved watching the World Cup last year and took on a personal project to learn how to create a leather football. My first ball was a classic 32-panel design, and I just finished working on a 212-panel piece. I used Adobe Illustrator for the design and my universitys makerlab to laser cut the pieces. I handstitched the ball together, and the project took approximately 40 hours to complete.',
-              url: '../src/assets/soccerball.jpeg',
+              url: 'https://drive.google.com/file/d/1R1_aECBcdIhz2EaAyZXmPtC8ae1iSnA3/view?usp=share_link',
             },
             {
               title: 'Hang Gliding',
@@ -101,13 +101,19 @@ export default class DataService {
               title: 'Rock Climbing',
               description:
                 'I have also been learning to climb in my free time! I unfortunatley dont have any photos of me climbing rocks, but below is a photo of me with some rocks.',
-              url: '../src/assets/rocks.JPG',
+              url: 'https://drive.google.com/file/d/159KiBvuMRIjg4Rn0gYBXikB3u6bLvyRV/view?usp=share_link',
+            },
+            {
+              title: 'Skiing & Snowboarding',
+              description:
+                'I have been skiing for years, and recently started learning how to snowboard.',
+              url: 'https://drive.google.com/file/d/1f1XIQPkg47KwQU3DFtZEqQHjobo-EFFi/view?usp=share_link',
             },
             {
               title: 'Electric Skateboard',
               description:
                 'Circa 2017, I wanted a Boosted Board but had no money. So I made one. I made the deck, coded the software, and did literally everything else.',
-              url: '../src/assets/2017eboard.JPG',
+              url: 'https://drive.google.com/file/d/1zbPUeM7B9CKhp_BHIcdbpvy6r7quKi8l/view?usp=share_link',
             },
           
           ],
