@@ -1,7 +1,7 @@
 import React from 'react'
 export default class DataService {
   _data = {
-    projectRepo: 'https://github.com/declangessel/portfolio',
+    projectRepo: 'https://github.com/declangessel/portfolio-site',
     react95Repo: 'https://github.com/React95/React95',
     items: [
       {
