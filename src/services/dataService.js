@@ -81,7 +81,7 @@ export default class DataService {
       },
       {
         id: 'projects',
-        name: 'Fun Projects.txt',
+        name: 'Projects and Hobbies.txt',
         icon: 'flying_through_space_100',
         content: {
           projects: [
@@ -89,14 +89,25 @@ export default class DataService {
               title: 'Handstitched Leather Soccer Ball',
               description:
                 'I loved watching the World Cup last year and took on a personal project to learn how to create a leather football. My first ball was a classic 32-panel design, and I just finished working on a 212-panel piece. I used Adobe Illustrator for the design and my universitys makerlab to laser cut the pieces. I handstitched the ball together, and the project took approximately 40 hours to complete.',
-              url: 'https://soontocome.com/',
-                
+              url: '../src/assets/soccerball.jpeg',
             },
             {
-              title: 'Filler text',
+              title: 'Hang Gliding',
               description:
-                'Filler text',
-              url: 'https://fillertext.app/',
+                'I have been learning to hangglide in my free time! See below for a short video on one of my first runs.',
+              url: 'https://drive.google.com/file/d/1JGCrsicP8HnqROV5ZeSsHDybO8CRsQ_5/view?usp=sharing',
+            },
+            {
+              title: 'Rock Climbing',
+              description:
+                'I have also been learning to climb in my free time! I unfortunatley dont have any photos of me climbing rocks, but below is a photo of me with some rocks.',
+              url: '../src/assets/rocks.JPG',
+            },
+            {
+              title: 'Electric Skateboard',
+              description:
+                'Circa 2017, I wanted a Boosted Board but had no money. So I made one. I made the deck, coded the software, and did literally everything else.',
+              url: '../src/assets/2017eboard.JPG',
             },
           
           ],
