@@ -16,7 +16,7 @@ function Projects({ content }) {
                 projects.map((project, idx) => (
                     <div key={idx}>
                         <h3>{project.title}</h3>
-                        <p>{project.description}</p>
+                        <p>{project.description.split('\n').map((line, index) => <span key={index}>{line}<br/></span>)}</p>
                         {
                             project.url &&
                             <StyledLink href={project.url} target="__blank">Link</StyledLink>
