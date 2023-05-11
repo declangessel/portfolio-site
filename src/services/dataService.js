@@ -129,7 +129,11 @@ export default class DataService {
             },
             {
               name: 'Java',
-              progress: 80,
+              progress: 100,
+            },
+            {
+              name: 'Swift/SwiftUI',
+              progress: 100,
             },
             {
               name: 'Javascript',
@@ -144,12 +148,12 @@ export default class DataService {
               progress: 90,
             },
             {
-              name: 'React',
-              progress: 80,
+              name: 'Typescript',
+              progress: 90,
             },
             {
-              name: 'R',
-              progress: 70,
+              name: 'React',
+              progress: 80,
             },
             {
               name: 'SQL',
@@ -187,7 +191,7 @@ export default class DataService {
         content: {
           emailText:
             'Send me an email @ ',
-          email: 'declangessel@gmail.com',
+          email: 'declan@berkeley.edu',
           socialText: 'Or reach out below:',
           social: [
             {
