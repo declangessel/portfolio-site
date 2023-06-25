@@ -37,6 +37,24 @@ export default class DataService {
               ],
             },
             {
+              jobTitle: 'Co-Founder',
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://youup.io/" target="_blank">You Up</a>'}} />,
+              period: 'JUL 2022 – PRESENT',
+              accomplishments: [
+                'YouUp is a social alarm clock app that replaces your alarm sound with personalized, surprise messages from friends and family.',
+                'Live on App Store. 20k+ downloads.',
+              ],
+            },
+
+            {
+              jobTitle: 'Co-Founder',
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://tryarlo.com/" target="_blank">Arlo</a>'}} />,
+              period: 'JUN 2023 – PRESENT',
+              accomplishments: [
+                'Arlo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.'
+              ],
+            },
+            {
               jobTitle: 'Founder & CEO',
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://vortexproxies.com/" target="_blank">Vortex Proxies</a>'}} />,
               period: 'JUL 2020 – NOV 2021',
@@ -45,16 +63,6 @@ export default class DataService {
                 'Maintained a proxy network with multiple ISP DC subnets and over 20 million residential IPs.',
                 'Utilized expertise in web proxy technologies (HTTP, HTTPS, SOCKS) to provide reliable and secure services to customers, and implemented IP management practices (provisioning, rotation) to optimize proxy performance and mitigate security risks.',
                 'Grew to $40,000 in revenue and served over 2000 customers.',
-              ],
-            },
-            {
-              jobTitle: 'Founder',
-              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://youup.io/" target="_blank">You Up</a>'}} />,
-              period: 'JUL 2022 – PRESENT',
-              accomplishments: [
-                'Developed an social media alarm clock app that utilizes personalized messages from a users selected social group to help them wake up feeling energized and appreciated.',
-                'Built MVP using SwiftUI, Figma, MySQL, and Firebase.',
-                'Completed during a 3-week hyper accelerator program.',
               ],
             },
             {
