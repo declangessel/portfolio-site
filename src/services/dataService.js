@@ -48,10 +48,10 @@ export default class DataService {
 
             {
               jobTitle: 'Co-Founder',
-              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://tryarlo.com/" target="_blank">Arlo</a>'}} />,
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://avoalarm.com/" target="_blank">Arlo</a>'}} />,
               period: 'JUN 2023 – PRESENT',
               accomplishments: [
-                'Arlo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.'
+                'Avo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.'
               ],
             },
             {
