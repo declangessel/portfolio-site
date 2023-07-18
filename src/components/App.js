@@ -5,7 +5,6 @@ import DataService from '../services/dataService';
 import DataContext from '../contexts/dataContext';
 import Taskbar from './Taskbar';
 import Desktop from './Desktop';
-import { Analytics } from '@vercel/analytics/react';
 
 const dataService = new DataService();
 
@@ -16,17 +15,14 @@ const BodyFontSizeOverride = createGlobalStyle`
 `;
 
 const App = () => (
-  <Analytics>
-    <DataContext.Provider value={dataService}>
-      <ThemeProvider>
-        <GlobalStyle />
-        <BodyFontSizeOverride />
+  <DataContext.Provider value={dataService}>
+    <ThemeProvider>
+      <GlobalStyle />
+      <BodyFontSizeOverride />
 
-        <Desktop />
-        <Taskbar />
-      </ThemeProvider>
-    </DataContext.Provider>
-  </Analytics>
+      <Desktop />
+      <Taskbar />
+    </ThemeProvider>
+  </DataContext.Provider>
 );
-
 export default App;
