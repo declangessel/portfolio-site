@@ -10,7 +10,7 @@ export default class DataService {
         icon: 'info_bubble',
         content: {
           paragraphs: [
-            "Studying Computer Science & Economics",
+            "Studying Computer Science",
             "University of California, Berkeley",
           ],
         },
@@ -29,11 +29,17 @@ export default class DataService {
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://steadysoles.com/" target="_blank">Steady Soles</a>'}} />,
               period: 'DEC 2018 – PRESENT',
               accomplishments: [
-                'Global subscription-based information and analytical service empowering the next generation of alternative asset investors.',
-                'An educational platform bringing together entrepreneurs and sneaker enthusiasts following a community-driven and software-backed approach.',
-                'Led software development efforts, utilizing Python, Java, HTML/CSS/JS, SwiftUI.',
-                'Successfully executed social media marketing campaigns on Twitter, Instagram, and TikTok, resulting in millions of impressions and 25,0000 followers.',
-                'Grew to $350,000 in revenue and served over 5000 customers.',
+                'A subscription-based SaaS education platform fueled by high school boredom and a passion for sneakers.',
+                'Grew to $350,000 in revenue, 5000+ customers.',
+              ],
+            },
+            {
+              jobTitle: 'Co-Founder',
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://avoalarm.com/" target="_blank">Arlo</a>'}} />,
+              period: 'JUN 2023 – PRESENT',
+              accomplishments: [
+                'Avo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.',
+                'Available on the App Store.'
               ],
             },
             {
@@ -41,17 +47,8 @@ export default class DataService {
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://youup.io/" target="_blank">You Up</a>'}} />,
               period: 'JUL 2022 – PRESENT',
               accomplishments: [
-                'YouUp is a social alarm clock app that replaces your alarm sound with personalized, surprise messages from friends and family.',
+                'YouUp is a social alarm app that replaces your alarm sound with personalized, surprise messages from friends and family.',
                 'Live on App Store. 20k+ downloads.',
-              ],
-            },
-
-            {
-              jobTitle: 'Co-Founder',
-              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://avoalarm.com/" target="_blank">Arlo</a>'}} />,
-              period: 'JUN 2023 – PRESENT',
-              accomplishments: [
-                'Avo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.'
               ],
             },
             {
@@ -59,10 +56,8 @@ export default class DataService {
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://vortexproxies.com/" target="_blank">Vortex Proxies</a>'}} />,
               period: 'JUL 2020 – NOV 2021',
               accomplishments: [
-                'Provided data center and residential web proxies for a variety of use cases.',
                 'Maintained a proxy network with multiple ISP DC subnets and over 20 million residential IPs.',
-                'Utilized expertise in web proxy technologies (HTTP, HTTPS, SOCKS) to provide reliable and secure services to customers, and implemented IP management practices (provisioning, rotation) to optimize proxy performance and mitigate security risks.',
-                'Grew to $40,000 in revenue and served over 2000 customers.',
+                'Grew to $40,000 in revenue, 2000+ customers.',
               ],
             },
             {
@@ -70,16 +65,14 @@ export default class DataService {
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://www.inacademy.eu/" target="_blank">European Innovation Academy</a>'}} />,
               period: 'JUL 2020 – AUG 2022',
               accomplishments: [
-                'A month-long entrepreneurship program with 500+ international students. Led a team in the creation of a new startup, YouUp, from concept to implementation.',
-                'Utilized design thinking and agile methodologies to rapidly prototype and iterate on the product.',
-                'Developed strong leadership and problem-solving skills, as well as a growth mindset through immersive training in innovation and entrepreneurship.',
+                'A month-long hyper-accelerator program with 500+ international students.',
               ],
             },
             
           ],
           education: [
             {
-              credit: 'B.A. in Computer Science + Economics',
+              credit: 'B.A. in Computer Science',
               place: 'University of California, Berkeley',
               period: 'AUG 2021 – MAY 2025',
             },
@@ -202,6 +195,10 @@ export default class DataService {
           email: 'declan@berkeley.edu',
           socialText: 'Or reach out below:',
           social: [
+            {
+              name: 'FaTwitter',
+              link: 'https://twitter.com/declangessel_/',
+            },
             {
               name: 'FaLinkedin',
               link: 'https://www.linkedin.com/in/declangessel/',

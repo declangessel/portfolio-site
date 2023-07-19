@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify } from 'react-icons/fa'
 
-const Icons = { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify };
+const Icons = { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify };
 
 
 const StyledItem = styled.li`
@@ -27,9 +27,9 @@ function Contact({ content }) {
             <p>{emailText}<a href={mailto}>{email}</a></p>
             Or reach out below:
             <br />
-            <a href="https://www.linkedin.com/in/declangessel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://twitter.com/declangessel_/" target="_blank" rel="noopener noreferrer">Twitter</a>
             <br />
-            <a href="https://github.com/declangessel" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/declangessel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <br />
             <a href="https://www.instagram.com/declangessel/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <br />
