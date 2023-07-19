@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify } from 'react-icons/fa'
 
-const Icons = { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify };
+const Icons = { FaLinkedin, FaGithub, FaInstagram, FaTwitter, FaSpotify };
 
 
 const StyledItem = styled.li`
