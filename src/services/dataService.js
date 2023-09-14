@@ -35,11 +35,19 @@ export default class DataService {
             },
             {
               jobTitle: 'Co-Founder',
-              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://avoalarm.com/" target="_blank">Arlo</a>'}} />,
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://avoalarm.com/" target="_blank">Avo</a>'}} />,
               period: 'JUN 2023 – PRESENT',
               accomplishments: [
                 'Avo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.',
                 'Available on the App Store.'
+              ],
+            },
+            {
+              jobTitle: 'Co-Founder',
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://myjotbot.com/" target="_blank">JotBot</a>'}} />,
+              period: 'AUG 2023 – PRESENT',
+              accomplishments: [
+                'JotBot is an AI-powered writing assistant that uses ML and Language Style Matching (LSM) to create content in your unique tone, style, and voice.',
               ],
             },
             {
