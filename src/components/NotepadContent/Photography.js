@@ -10,7 +10,7 @@ function Photography({ content }) {
             <h4>
                 check it out <a href="https://declangessel.org" target="_blank" rel="noopener noreferrer">here</a>
             </h4>
-            <img src="https://media1.giphy.com/media/lkl6MsCn3iqgZCtTfR/giphy.gif?cid=ecf05e47uroib8yj69zu1cjfpyf6kstzhvw2i5vhjwrftb98&rid=giphy.gif&ct=g" alt="Photo gif" style={{ width: '70%' }}>
+            <img src="https://media3.giphy.com/media/5Puwg4f1q4Pm9nfE8w/giphy.gif?cid=ecf05e47k80hgf2e9szsx70wnc4pzcdvtbkeojusumealkl1&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Photo gif" style={{ width: '70%' }}>
             </img>
 
             

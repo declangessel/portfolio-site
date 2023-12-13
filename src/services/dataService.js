@@ -23,9 +23,20 @@ export default class DataService {
         content: {
           resumeLink:
             'https://docs.google.com/document/d/1hAhNktHRrfwLPlPECqicOBSTWvufPPWcNDvgK8aWjr8/export?format=pdf',
-          workExperience: [
+          currentWork: [
             {
-              jobTitle: 'Founder & CEO',
+              jobTitle: 'Co-Founder',
+              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://myjotbot.com/" target="_blank">JotBot</a>'}} />,
+              period: 'AUG 2023 – PRESENT',
+              accomplishments: [
+                'JotBot is an AI-powered writing assistant that uses ML and Language Style Matching (LSM) to create content in your unique tone, style, and voice.',
+              ],
+            },
+            
+          ],
+          pastWork: [
+            {
+              jobTitle: 'Founder',
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://steadysoles.com/" target="_blank">Steady Soles</a>'}} />,
               period: 'DEC 2018 – PRESENT',
               accomplishments: [
@@ -40,14 +51,6 @@ export default class DataService {
               accomplishments: [
                 'Avo is an AI alarm app that wakes you up with AI-generated messages, delivered by voices of popular figures, and tailored to your daily schedule and local weather.',
                 'Available on the App Store.'
-              ],
-            },
-            {
-              jobTitle: 'Co-Founder',
-              company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://myjotbot.com/" target="_blank">JotBot</a>'}} />,
-              period: 'AUG 2023 – PRESENT',
-              accomplishments: [
-                'JotBot is an AI-powered writing assistant that uses ML and Language Style Matching (LSM) to create content in your unique tone, style, and voice.',
               ],
             },
             {

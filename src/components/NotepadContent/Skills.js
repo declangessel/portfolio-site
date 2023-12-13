@@ -24,9 +24,8 @@ function Skills({ content, isMobile }) {
                 ))
             }
             <br />
-            <h2>Interpersonal Skills</h2>
-            <p>{soft}</p>
-
+            {/* <h2>Interpersonal Skills</h2>
+            <p>{soft}</p> */}
         </div>
     )
 }

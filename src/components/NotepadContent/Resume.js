@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 `;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink } = content;
+  const { currentWork, pastWork, education, resumeLink } = content;
 
   return (
     <div>
@@ -28,8 +28,24 @@ function Resume({ content }) {
         </div>
       ))}
       <hr />
-      <h2>Work Experience</h2>
-      {workExperience.map((exp, idx) => (
+      <h2>Current</h2>
+      {currentWork.map((exp, idx) => (
+        <div key={idx}>
+          <p>
+            <b>{exp.jobTitle}</b> | {exp.company} | {exp.location}
+          </p>
+          <p>{exp.period}</p>
+          <ul>
+            {exp.accomplishments.map((a, idx) => (
+              <li key={idx}>{a}</li>
+            ))}
+          </ul>
+          <br />
+        </div>
+      ))}
+      <hr />
+      <h2>Past</h2>
+      {pastWork.map((exp, idx) => (
         <div key={idx}>
           <p>
             <b>{exp.jobTitle}</b> | {exp.company} | {exp.location}
