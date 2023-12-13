@@ -91,7 +91,7 @@ export default class DataService {
           ],
           
         },
-      // },
+      },
       // {
       //   id: 'projects',
       //   name: 'Projects and Hobbies.txt',
