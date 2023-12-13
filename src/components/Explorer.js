@@ -3,10 +3,15 @@ import styled from 'styled-components'
 import { Modal, Frame } from '@react95/core'
 import Item from './Item'
 
+// const FilesWrapper = styled.div`
+// 	display: flex;
+// 	grid-template-columns: repeat(3, 1fr);
+// 	flex-wrap: wrap;
+// `;
 const FilesWrapper = styled.div`
-	display: flex;
+	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	flex-wrap: wrap;
+	grid-gap: 10px;
 `;
 
 
