@@ -18,7 +18,7 @@ export default class DataService {
 
       {
         id: 'resume',
-        name: 'Resume.txt',
+        name: 'Work.txt',
         icon: 'notepad_2',
         content: {
           resumeLink:
@@ -29,7 +29,8 @@ export default class DataService {
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://myjotbot.com/" target="_blank">JotBot</a>'}} />,
               period: 'AUG 2023 – PRESENT',
               accomplishments: [
-                'JotBot is an AI-powered writing assistant that uses ML and Language Style Matching (LSM) to create content in your unique tone, style, and voice.',
+                'JotBot is a supercharged document editor that replicates your voice from writing samples, explores sources, takes notes on video-content, and gives you AI-powered document editing capabilities.',
+                'We’re building towards a writing assistant that proactively explores ideas (external sources, internal documents, new analysis) along with you as you write.',
               ],
             },
             
