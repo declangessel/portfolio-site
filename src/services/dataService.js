@@ -64,7 +64,7 @@ export default class DataService {
               ],
             },
             {
-              jobTitle: 'Founder & CEO',
+              jobTitle: 'Founder',
               company: <div style={{display: 'inline'}} dangerouslySetInnerHTML={{__html: '<a href="https://vortexproxies.com/" target="_blank">Vortex Proxies</a>'}} />,
               period: 'JUL 2020 – NOV 2021',
               accomplishments: [
