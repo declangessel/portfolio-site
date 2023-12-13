@@ -5,7 +5,7 @@ import Item from './Item'
 
 const FilesWrapper = styled.div`
 	display: flex;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	flex-wrap: wrap;
 `;
 
@@ -19,7 +19,7 @@ function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
             style={{
                 left: isMobile ? '5%' : '15%',
                 top: '30%',
-                width: isMobile ? '90%' : 400,
+                width: isMobile ? '90%' : 450,
             }}
             menu={[
                 { name: 'File', list: [] },
