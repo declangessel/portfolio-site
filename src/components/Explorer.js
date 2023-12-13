@@ -3,16 +3,12 @@ import styled from 'styled-components'
 import { Modal, Frame } from '@react95/core'
 import Item from './Item'
 
-// const FilesWrapper = styled.div`
-// 	display: flex;
-// 	grid-template-columns: repeat(3, 1fr);
-// 	flex-wrap: wrap;
-// `;
 const FilesWrapper = styled.div`
-	display: grid;
+	display: flex;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
+	flex-wrap: wrap;
 `;
+
 
 
 function Explorer({ items, closeExplorer, openNotepad, isMobile }) {
