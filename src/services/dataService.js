@@ -10,8 +10,9 @@ export default class DataService {
         icon: 'info_bubble',
         content: {
           paragraphs: [
-            "Studying Computer Science",
-            "University of California, Berkeley",
+            // "Studying Computer Science",
+            // "University of California, Berkeley",
+            "Left Cal to build JotBot.",
           ],
         },
       },

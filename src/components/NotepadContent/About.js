@@ -16,10 +16,6 @@ function About({ content }) {
             <br />
             <a href="https://twitter.com/declangessel_/" target="_blank" rel="noopener noreferrer">Twitter</a>
             <br />
-            <a href="https://www.linkedin.com/in/declangessel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <br />
-            <a href="https://github.com/declangessel" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <br />
             <a href="https://www.instagram.com/declangessel/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <br />
         </div>
