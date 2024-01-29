@@ -33,6 +33,7 @@ function Contact({ content }) {
             <br />
             <a href="https://www.instagram.com/declangessel/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <br />
+            <a href="https://www.ocf.berkeley.edu/~declangessel/" target="_blank" rel="noopener noreferrer" style={{ color: '#000', fontSize: '12px', textDecoration: 'none' }}>berkeley site</a>
         </div>
     )
 }
